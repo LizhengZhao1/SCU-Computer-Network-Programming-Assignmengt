@@ -1,0 +1,23 @@
+Input 1: (correct)
+Enter subscriber number: 4085546805
+Enter technology: 04
+
+Input 2: (user not paid)
+Enter subscriber number: 4086668821
+Enter technology: 03
+
+Input 3: (correct)
+Enter subscriber number: 4086808821
+Enter technology: 02
+
+Input 4: (wrong technology)
+Enter subscriber number: 4086808821
+Enter technology: 04
+
+Input 5: (wrong number)
+Enter subscriber number: 1234567890
+Enter technology: 05
+
+Input 6: (correct, but server closed, test for ACK_timer)
+Enter subscriber number: 4085546805
+Enter technology: 04

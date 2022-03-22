@@ -1,0 +1,75 @@
+First five packets(5 correct packets)
+Input 1:
+Enter end of packet identifier: FF
+Enter segment number: 1
+Please enter the message: HELLO
+Enter payload length: 5
+
+Input 2:
+Enter end of packet identifier: FF
+Enter segment number: 2
+Please enter the message: WORLD
+Enter payload length: 5
+
+Input 3:
+Enter end of packet identifier: FF
+Enter segment number: 3
+Please enter the message: YOU
+Enter payload length: 3
+
+Input 4:
+Enter end of packet identifier: FF
+Enter segment number: 4
+Please enter the message: ARE
+Enter payload length: 3
+
+Input 5:
+Enter end of packet identifier: FF
+Enter segment number: 5
+Please enter the message: WELCOME
+Enter payload length: 7
+
+
+Another five packets(1 correct, 4 incorrect)
+Input 6:
+Enter end of packet identifier: FF
+Enter segment number: 6
+Please enter the message: HELLO
+Enter payload length: 5
+
+Input 7: (Error: duplicated packet)
+Enter end of packet identifier: FF
+Enter segment number: 6
+Please enter the message: HELLO
+Enter payload length: 5
+
+Input 8: (Error: mismatch length)
+Enter end of packet identifier: FF
+Enter segment number: 7
+Please enter the message: HELLO
+Enter payload length: 3
+
+Input 9: (Error: missing end ID)
+Enter end of packet identifier: FA
+Enter segment number: 7
+Please enter the message: HELLO
+Enter payload length: 5
+
+Input 10: (Error: out of sequence)
+Enter end of packet identifier: FF
+Enter segment number: 9
+Please enter the message: HELLO
+Enter payload length: 5
+
+Input 11:(Correct)
+Enter end of packet identifier: FF
+Enter segment number: 7
+Please enter the message: HELLO
+Enter payload length: 5
+
+Last packet: (Server closed, test for ACK_timer)
+Input 12:
+Enter end of packet identifier: FF
+Enter segment number: 8
+Please enter the message: HELLO
+Enter payload length: 5
